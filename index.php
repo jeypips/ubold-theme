@@ -73,7 +73,7 @@
                                     <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="icon-size-fullscreen"></i></a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                    <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="{{accountProfile.picture}}" alt="user-img" class="img-circle"> </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#"><i class="ti-settings m-r-5"></i> Settings</a></li>
                                         <li><a href="javascript:;" logout-account><i class="ti-power-off m-r-5"></i> Logout</a></li>
@@ -119,9 +119,21 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <h4 class="page-title">Dashboard</h4>
-                                <p class="text-muted page-title-alt">Welcome to Ubold admin panel !</p>
+                                <p class="text-muted page-title-alt">Welcome to System</p>
                             </div>
                         </div>
+						
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="card-box">
+									<div class="row">
+										<div class="col-md-6">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- row -->
                     </div> <!-- container -->
                 </div> <!-- content -->
 
